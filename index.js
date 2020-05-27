@@ -11,8 +11,8 @@ function useToggle(initialState = false) {
 export default useToggle;
 
 <!------------------------------------------------------------------------>
-
 //Toggle state with unique true/false functions
+  
 import { useCallback, useState } from 'react';
 
 function useToggle(initialState = false) {
